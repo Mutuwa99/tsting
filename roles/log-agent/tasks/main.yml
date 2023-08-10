@@ -16,9 +16,3 @@
     name: filebeat
     state: started
     enabled: yes
-
-handlers:
-- name: Restart Filebeat
-  service:
-    name: filebeat
-    state: restarted
